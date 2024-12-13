@@ -109,3 +109,32 @@ cursor: pointer;
 .point.active{
     background-color: var(--orange);
 }
+
+#loginWrapper{
+    display:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    background: rgb(6,13,34);
+    background: linear-gradient(90deg, rgba(6,13,34,0.5411414565826331) 0%, rgba(68,94,134,0.8632703081232493) 98%);
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+#loginWrapper h3{
+    font-size: 26px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#loginWrapper input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    background-color: var(--purple);
+    font-size: 22px;
+}
