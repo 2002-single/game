@@ -48,6 +48,7 @@ function activeArea() {
 function setFlag(){
     let target = event.target;
     target.classList.add("flag");
+    event.preventDefault();
 }
 
 function startOrStopGame() {
@@ -107,7 +108,7 @@ function resetField() {
         gameField.appendChild(cell);
     }
 }
-
+event.preventDefault();
 async function auth() {
     const loginWrapper = document.getElementById("loginWrapper");
     const login = document.getElementById("login").value;
