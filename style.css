@@ -138,3 +138,10 @@ flex-direction: column;
     background-color: var(--purple);
     font-size: 22px;
 }
+
+.field.flag {
+    background-image: url(./img/flag-in-hole.png);
+    background-position: center;
+    background-size: contain;
+    background-color: var(--green);
+}
